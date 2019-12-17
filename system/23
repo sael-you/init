@@ -1,0 +1,3 @@
+#in graphical session, we choose the user we want and then enter the password if asked.
+
+#in the ssh session, we enter ssh cmd followed by <login>@<login.ip> and then the password if asked.

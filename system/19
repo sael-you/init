@@ -1,0 +1,37 @@
+systemctl list-unit-files --state=enabled --type=service
+
+
+UNIT FILE                                  STATE
+accounts-daemon.service                    enabled
+anacron.service                            enabled
+apparmor.service                           enabled
+autovt@.service                            enabled
+avahi-daemon.service                       enabled
+bluetooth.service                          enabled
+console-setup.service                      enabled
+cron.service                               enabled
+dbus-fi.w1.wpa_supplicant1.service         enabled
+dbus-org.bluez.service                     enabled
+dbus-org.freedesktop.Avahi.service         enabled
+dbus-org.freedesktop.ModemManager1.service enabled
+dbus-org.freedesktop.nm-dispatcher.service enabled
+dbus-org.freedesktop.timesync1.service     enabled
+getty@.service                             enabled
+haveged.service                            enabled
+keyboard-setup.service                     enabled
+ModemManager.service                       enabled
+network-manager.service                    enabled
+networking.service                         enabled
+NetworkManager-dispatcher.service          enabled
+NetworkManager-wait-online.service         enabled
+NetworkManager.service                     enabled
+pppd-dns.service                           enabled
+rsyslog.service                            enabled
+ssh.service                                enabled
+sshd.service                               enabled
+syslog.service                             enabled
+systemd-timesyncd.service                  enabled
+udisks2.service                            enabled
+unattended-upgrades.service                enabled
+wpa_supplicant.service                     enabled
+#services type = Deamon (running on background)
